@@ -1,0 +1,36 @@
+*{
+margin: 0;
+padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 2em 4em;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+        
+
+}
+.logo{
+    font-size: 42px;
+    font-weight:bolder;
+    color: #4E47FF;
+    cursor: pointer;
+}
+.btn{
+    width: 129px;
+    height: 47px;
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    padding: 12px 36px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out;
+}
+.btn:hover{
+    background-color: #3730f7;
+    /* background-color: black; */
+}
