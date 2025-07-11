@@ -133,7 +133,7 @@ body {
     /* text-align: start; */
 }
 .card{
-    display: flex;
+        display: flex;
     flex-direction: column;
     align-items: start;
     width: 415px;
@@ -141,11 +141,12 @@ body {
     background-color: white;
     border-radius: 14px;
     padding: 24px;
+    border: 0.1px solid #D6DDED;
 }
 .main-card{
     display: flex;
-   gap: 50px;
-   justify-content: center;
+    gap: 50px;
+     justify-content: center;
 }
 
 .inside-card {
@@ -194,8 +195,6 @@ body {
     align-items: center;
 }
 .form{
-   /* width: 1140px;  */
-   /* height: 632px; */
    padding: 71px 0;
    display: flex;
    margin: 92px 42px;
@@ -217,7 +216,12 @@ body {
     padding: 20px 32px;
     width: 497px;
     border-radius: 10px;
-    border: none;
+    /* border: none; */
+    /* border: #D6DDED; */
+    
+ }
+ input, textarea{
+    border: 0.1px solid #D6DDED;
  }
  .input-matter :placeholder-shown{
     font-size: 20px;
