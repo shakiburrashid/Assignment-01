@@ -4,52 +4,12 @@ body {
     
 }
 .for-background-image{
-       background: url("./Assets/Hero-bg.png");
+    background: url("./Assets/Hero-bg.png");
     background-size: cover;
     height: 658px;
     background-repeat: no-repeat;
 }
-.hero-section{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7em;
-}
-.hero-section > div > p {
-    font-size: 50px;
-    font-weight: 600;
-    margin: 0;
-    display: block;
-}
-.btn2{
-    width: 165px;
-    height: 47px;
-    background-color: #4E47FF;
-    color: white;
-    font-weight: bold;
-    padding: 12px 36px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 200ms ease-in-out;
-}
-.btn2:hover{
-    background-color: #3730f7;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: -6px 40px;
-}
-.logo{
-    font-size: 42px;
-    font-weight:bolder;
-    color: #4E47FF;
-    cursor: pointer;
-}
-.btn1{
+.btn{
     width: 129px;
     height: 47px;
     background-color: #4E47FF;
@@ -59,7 +19,58 @@ body {
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 200ms ease-in-out;
+    border: none;
 }
-.btn1:hover{
+.btn:hover{
     background-color: #3730f7;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7em;
+}
+.hero-section > button{
+    width: 165px;
+}
+.hero-section > div > p {
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -6px 40px; 
+}
+.logo{
+    font-size: 42px;
+    font-weight:bolder;
+    color: #4E47FF;
+    cursor: pointer;
+}
+
+
+
+.banner-section{
+    margin: 10em 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-right-side > button {
+    width: 210px;
+}
+.banner-left-side > img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+   
 }
