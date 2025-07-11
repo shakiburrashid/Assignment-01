@@ -118,7 +118,7 @@ body {
 }
 .review-section{
     margin: 10px 42px;
-    /* width: 1140px; */
+    margin-bottom: 137px;
     height: 342px;
     text-align: center;
 }
@@ -170,3 +170,24 @@ body {
 .color2{
     color: #b3b3b3;
 }
+.banner2{
+    width: 1140px;
+    height: 695px;
+    background-color: white;
+    padding: 70px 150px;
+    margin: 137px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.banner2-write{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ 
