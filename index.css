@@ -1,6 +1,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #F5F8FF;
     
 }
 .for-background-image{
@@ -114,4 +115,58 @@ body {
     margin: -15px 0;
     padding: 0;
     color: #8D8E98;
+}
+.review-section{
+    margin: 10px 42px;
+    /* width: 1140px; */
+    height: 342px;
+    text-align: center;
+}
+.review-section > div > h2{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* text-align: start; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 415px;
+    height: 243px;
+    background-color: white;
+    border-radius: 14px;
+    padding: 24px;
+}
+.main-card{
+    display: flex;
+   gap: 50px;
+   justify-content: center;
+}
+
+.inside-card {
+    text-align: start;
+}
+.image-and-review{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.image-and-review img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    
+}
+.image-and-review-and-comment{
+        margin-bottom: -9px;
+    text-align: start;
+    justify-content: start;
+}
+.color1{
+    color: #737373;
+}
+.color2{
+    color: #b3b3b3;
 }
